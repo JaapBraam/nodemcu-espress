@@ -2,7 +2,7 @@
 -- send file
 ------------------------------------------------------------------------------
 return function(res, filename, status)
- local buffersize = 512
+ local buffersize = 1024
  local offset = 0
  local buf
  local more
